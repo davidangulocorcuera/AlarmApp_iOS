@@ -8,12 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		8400F102218F436600981CD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400F101218F436600981CD3 /* AppDelegate.swift */; };
-		8400F104218F436600981CD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400F103218F436600981CD3 /* ViewController.swift */; };
-		8400F107218F436600981CD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8400F105218F436600981CD3 /* Main.storyboard */; };
 		8400F109218F436800981CD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8400F108218F436800981CD3 /* Assets.xcassets */; };
 		8400F10C218F436800981CD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8400F10A218F436800981CD3 /* LaunchScreen.storyboard */; };
 		8400F117218F436800981CD3 /* IphoneAlarmAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400F116218F436800981CD3 /* IphoneAlarmAppTests.swift */; };
 		8400F122218F436800981CD3 /* IphoneAlarmAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400F121218F436800981CD3 /* IphoneAlarmAppUITests.swift */; };
+		8400F137218F463600981CD3 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400F135218F463600981CD3 /* TimerViewController.swift */; };
+		8400F138218F463600981CD3 /* TimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8400F136218F463600981CD3 /* TimerViewController.xib */; };
+		8400F13B218F464E00981CD3 /* StopwatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400F139218F464E00981CD3 /* StopwatchViewController.swift */; };
+		8400F13C218F464E00981CD3 /* StopwatchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8400F13A218F464E00981CD3 /* StopwatchViewController.xib */; };
+		8400F13F218F466500981CD3 /* BedtimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400F13D218F466500981CD3 /* BedtimeViewController.swift */; };
+		8400F140218F466500981CD3 /* BedtimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8400F13E218F466500981CD3 /* BedtimeViewController.xib */; };
+		8400F143218F467D00981CD3 /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400F141218F467D00981CD3 /* AlarmViewController.swift */; };
+		8400F144218F467D00981CD3 /* AlarmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8400F142218F467D00981CD3 /* AlarmViewController.xib */; };
+		8400F147218F473C00981CD3 /* WorldClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400F145218F473C00981CD3 /* WorldClockViewController.swift */; };
+		8400F148218F473C00981CD3 /* WorldClockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8400F146218F473C00981CD3 /* WorldClockViewController.xib */; };
+		8400F14A218F49CC00981CD3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8400F149218F49CC00981CD3 /* Localizable.strings */; };
+		8400F14D218F62EC00981CD3 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400F14C218F62EC00981CD3 /* Style.swift */; };
+		8400F14F218F633500981CD3 /* ColorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400F14E218F633500981CD3 /* ColorStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +47,6 @@
 /* Begin PBXFileReference section */
 		8400F0FE218F436600981CD3 /* IphoneAlarmApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IphoneAlarmApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8400F101218F436600981CD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8400F103218F436600981CD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8400F106218F436600981CD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8400F108218F436800981CD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8400F10B218F436800981CD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8400F10D218F436800981CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +56,19 @@
 		8400F11D218F436800981CD3 /* IphoneAlarmAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IphoneAlarmAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8400F121218F436800981CD3 /* IphoneAlarmAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IphoneAlarmAppUITests.swift; sourceTree = "<group>"; };
 		8400F123218F436800981CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8400F135218F463600981CD3 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		8400F136218F463600981CD3 /* TimerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimerViewController.xib; sourceTree = "<group>"; };
+		8400F139218F464E00981CD3 /* StopwatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchViewController.swift; sourceTree = "<group>"; };
+		8400F13A218F464E00981CD3 /* StopwatchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StopwatchViewController.xib; sourceTree = "<group>"; };
+		8400F13D218F466500981CD3 /* BedtimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedtimeViewController.swift; sourceTree = "<group>"; };
+		8400F13E218F466500981CD3 /* BedtimeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BedtimeViewController.xib; sourceTree = "<group>"; };
+		8400F141218F467D00981CD3 /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		8400F142218F467D00981CD3 /* AlarmViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmViewController.xib; sourceTree = "<group>"; };
+		8400F145218F473C00981CD3 /* WorldClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockViewController.swift; sourceTree = "<group>"; };
+		8400F146218F473C00981CD3 /* WorldClockViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorldClockViewController.xib; sourceTree = "<group>"; };
+		8400F149218F49CC00981CD3 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		8400F14C218F62EC00981CD3 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		8400F14E218F633500981CD3 /* ColorStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +119,13 @@
 		8400F100218F436600981CD3 /* IphoneAlarmApp */ = {
 			isa = PBXGroup;
 			children = (
+				8400F14B218F62D200981CD3 /* Style */,
+				8400F12F218F447E00981CD3 /* ViewControllers */,
 				8400F101218F436600981CD3 /* AppDelegate.swift */,
-				8400F103218F436600981CD3 /* ViewController.swift */,
-				8400F105218F436600981CD3 /* Main.storyboard */,
 				8400F108218F436800981CD3 /* Assets.xcassets */,
 				8400F10A218F436800981CD3 /* LaunchScreen.storyboard */,
 				8400F10D218F436800981CD3 /* Info.plist */,
+				8400F149218F49CC00981CD3 /* Localizable.strings */,
 			);
 			path = IphoneAlarmApp;
 			sourceTree = "<group>";
@@ -123,6 +146,72 @@
 				8400F123218F436800981CD3 /* Info.plist */,
 			);
 			path = IphoneAlarmAppUITests;
+			sourceTree = "<group>";
+		};
+		8400F12F218F447E00981CD3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8400F134218F45F600981CD3 /* TimerViewcontroller */,
+				8400F133218F458800981CD3 /* StopwatchViewController */,
+				8400F132218F455C00981CD3 /* BedtimeViewController */,
+				8400F131218F454B00981CD3 /* AlarmViewController */,
+				8400F130218F453500981CD3 /* WorldClockViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8400F130218F453500981CD3 /* WorldClockViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8400F145218F473C00981CD3 /* WorldClockViewController.swift */,
+				8400F146218F473C00981CD3 /* WorldClockViewController.xib */,
+			);
+			path = WorldClockViewController;
+			sourceTree = "<group>";
+		};
+		8400F131218F454B00981CD3 /* AlarmViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8400F141218F467D00981CD3 /* AlarmViewController.swift */,
+				8400F142218F467D00981CD3 /* AlarmViewController.xib */,
+			);
+			path = AlarmViewController;
+			sourceTree = "<group>";
+		};
+		8400F132218F455C00981CD3 /* BedtimeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8400F13D218F466500981CD3 /* BedtimeViewController.swift */,
+				8400F13E218F466500981CD3 /* BedtimeViewController.xib */,
+			);
+			path = BedtimeViewController;
+			sourceTree = "<group>";
+		};
+		8400F133218F458800981CD3 /* StopwatchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8400F139218F464E00981CD3 /* StopwatchViewController.swift */,
+				8400F13A218F464E00981CD3 /* StopwatchViewController.xib */,
+			);
+			path = StopwatchViewController;
+			sourceTree = "<group>";
+		};
+		8400F134218F45F600981CD3 /* TimerViewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				8400F135218F463600981CD3 /* TimerViewController.swift */,
+				8400F136218F463600981CD3 /* TimerViewController.xib */,
+			);
+			path = TimerViewcontroller;
+			sourceTree = "<group>";
+		};
+		8400F14B218F62D200981CD3 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				8400F14C218F62EC00981CD3 /* Style.swift */,
+				8400F14E218F633500981CD3 /* ColorStyle.swift */,
+			);
+			path = Style;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +318,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8400F144218F467D00981CD3 /* AlarmViewController.xib in Resources */,
+				8400F148218F473C00981CD3 /* WorldClockViewController.xib in Resources */,
+				8400F140218F466500981CD3 /* BedtimeViewController.xib in Resources */,
+				8400F13C218F464E00981CD3 /* StopwatchViewController.xib in Resources */,
+				8400F14A218F49CC00981CD3 /* Localizable.strings in Resources */,
+				8400F138218F463600981CD3 /* TimerViewController.xib in Resources */,
 				8400F10C218F436800981CD3 /* LaunchScreen.storyboard in Resources */,
 				8400F109218F436800981CD3 /* Assets.xcassets in Resources */,
-				8400F107218F436600981CD3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +350,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8400F104218F436600981CD3 /* ViewController.swift in Sources */,
+				8400F147218F473C00981CD3 /* WorldClockViewController.swift in Sources */,
+				8400F143218F467D00981CD3 /* AlarmViewController.swift in Sources */,
+				8400F13B218F464E00981CD3 /* StopwatchViewController.swift in Sources */,
+				8400F14F218F633500981CD3 /* ColorStyle.swift in Sources */,
+				8400F137218F463600981CD3 /* TimerViewController.swift in Sources */,
 				8400F102218F436600981CD3 /* AppDelegate.swift in Sources */,
+				8400F14D218F62EC00981CD3 /* Style.swift in Sources */,
+				8400F13F218F466500981CD3 /* BedtimeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +393,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8400F105218F436600981CD3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8400F106218F436600981CD3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8400F10A218F436800981CD3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

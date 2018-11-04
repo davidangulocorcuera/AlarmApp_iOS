@@ -12,10 +12,34 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+         window = UIWindow(frame: UIScreen.main.bounds)
+        if let window = window {
+             Style.customize()
+            let timerVC = TimerViewController()
+            let stopwatchVC = StopwatchViewController()
+            let bedtimeVC = BedtimeViewController()
+            let alarmVC = AlarmViewController()
+            let worldClockVC = WorldClockViewController()
+            
+            let navigationControllerTimer = UINavigationController(rootViewController:timerVC)
+            let navigationControllerStopwatch = UINavigationController(rootViewController: stopwatchVC)
+            let navigationControllerBedtime = UINavigationController(rootViewController: bedtimeVC)
+            let navigationControllerAlarm = UINavigationController(rootViewController: alarmVC)
+            let navigationControllerWorldClock = UINavigationController(rootViewController:worldClockVC)
+            let tabBarController = UITabBarController()
+            tabBarController.viewControllers =
+                [navigationControllerWorldClock,navigationControllerAlarm,navigationControllerBedtime,navigationControllerStopwatch,navigationControllerTimer]
+            tabBarController.tabBar.isTranslucent = false
+            window.rootViewController = tabBarController
+            window.makeKeyAndVisible()
+            
+            
+            
+        }
         return true
     }
 

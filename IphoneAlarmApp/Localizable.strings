@@ -1,0 +1,12 @@
+/* 
+  File.strings
+  IphoneAlarmApp
+
+  Created by Biolizard on 04/11/2018.
+  Copyright © 2018 Biolizard. All rights reserved.
+*/
+"tittle_timer" = "Timer";
+"tittle_stopwatch" = "Stopwatch";
+"tittle_bedtime" = "Bedtime";
+"tittle_alarm" = "Alarm";
+"tittle_worldclock" = "World Clock";
