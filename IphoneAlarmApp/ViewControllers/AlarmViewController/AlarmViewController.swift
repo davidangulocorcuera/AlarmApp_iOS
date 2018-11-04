@@ -18,8 +18,10 @@ class AlarmViewController: UIViewController {
     required init?(coder aDecoder: NSCoder) {
         super.init(coder:aDecoder)
     }
+    @IBOutlet weak var tableViewAlarm: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        registercells()
         setupBarButtonsItems()
 
         // Do any additional setup after loading the view.
@@ -47,6 +49,15 @@ class AlarmViewController: UIViewController {
     @objc private func onButtonPresssed(){
         
     }
+    private func registercells(){
+     
+        
+        let identifierSwitchCell = "SwitchTableViewCell"
+        let cellNibSwitch = UINib(nibName: identifierSwitchCell, bundle: nil)
+        tableViewAlarm.register(cellNibSwitch, forCellReuseIdentifier: "SwitchTableViewCell")
+        
+        tableViewAlarm.register(cellNibSwitch, forCellReuseIdentifier: identifierSwitchCell)
+    }
 
 
     /*
@@ -60,3 +71,29 @@ class AlarmViewController: UIViewController {
     */
 
 }
+extension AlarmViewController:
+UITableViewDelegate,UITableViewDataSource{
+    
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 2
+    }
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        
+        return 100.0
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+         let cell:SwitchTableViewCell = (tableView.dequeueReusableCell(withIdentifier: "SwitchTableViewCell", for: indexPath) as? SwitchTableViewCell)!
+        return cell
+    }
+    
+    
+    
+    
+}
+

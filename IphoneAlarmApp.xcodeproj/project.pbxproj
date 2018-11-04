@@ -25,6 +25,8 @@
 		8400F14A218F49CC00981CD3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8400F149218F49CC00981CD3 /* Localizable.strings */; };
 		8400F14D218F62EC00981CD3 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400F14C218F62EC00981CD3 /* Style.swift */; };
 		8400F14F218F633500981CD3 /* ColorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400F14E218F633500981CD3 /* ColorStyle.swift */; };
+		8400F18E218F71DB00981CD3 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400F18C218F71DB00981CD3 /* SwitchTableViewCell.swift */; };
+		8400F18F218F71DB00981CD3 /* SwitchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8400F18D218F71DB00981CD3 /* SwitchTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		8400F149218F49CC00981CD3 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		8400F14C218F62EC00981CD3 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 		8400F14E218F633500981CD3 /* ColorStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorStyle.swift; sourceTree = "<group>"; };
+		8400F18C218F71DB00981CD3 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		8400F18D218F71DB00981CD3 /* SwitchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,7 @@
 		8400F100218F436600981CD3 /* IphoneAlarmApp */ = {
 			isa = PBXGroup;
 			children = (
+				8400F18A218F719700981CD3 /* Cells */,
 				8400F14B218F62D200981CD3 /* Style */,
 				8400F12F218F447E00981CD3 /* ViewControllers */,
 				8400F101218F436600981CD3 /* AppDelegate.swift */,
@@ -212,6 +217,23 @@
 				8400F14E218F633500981CD3 /* ColorStyle.swift */,
 			);
 			path = Style;
+			sourceTree = "<group>";
+		};
+		8400F18A218F719700981CD3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8400F18B218F71A900981CD3 /* SwitchCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8400F18B218F71A900981CD3 /* SwitchCell */ = {
+			isa = PBXGroup;
+			children = (
+				8400F18C218F71DB00981CD3 /* SwitchTableViewCell.swift */,
+				8400F18D218F71DB00981CD3 /* SwitchTableViewCell.xib */,
+			);
+			path = SwitchCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,6 +346,7 @@
 				8400F13C218F464E00981CD3 /* StopwatchViewController.xib in Resources */,
 				8400F14A218F49CC00981CD3 /* Localizable.strings in Resources */,
 				8400F138218F463600981CD3 /* TimerViewController.xib in Resources */,
+				8400F18F218F71DB00981CD3 /* SwitchTableViewCell.xib in Resources */,
 				8400F10C218F436800981CD3 /* LaunchScreen.storyboard in Resources */,
 				8400F109218F436800981CD3 /* Assets.xcassets in Resources */,
 			);
@@ -355,6 +378,7 @@
 				8400F13B218F464E00981CD3 /* StopwatchViewController.swift in Sources */,
 				8400F14F218F633500981CD3 /* ColorStyle.swift in Sources */,
 				8400F137218F463600981CD3 /* TimerViewController.swift in Sources */,
+				8400F18E218F71DB00981CD3 /* SwitchTableViewCell.swift in Sources */,
 				8400F102218F436600981CD3 /* AppDelegate.swift in Sources */,
 				8400F14D218F62EC00981CD3 /* Style.swift in Sources */,
 				8400F13F218F466500981CD3 /* BedtimeViewController.swift in Sources */,
