@@ -13,6 +13,8 @@ class Style{
         UINavigationBar.appearance().barTintColor = ColorStyle.navigationBarTintColor()
         UITabBar.appearance().barTintColor =  ColorStyle.navigationBarTintColor()
         UITabBar.appearance().tintColor = UIColor.orange
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.white]
+       
        
     }
 }
